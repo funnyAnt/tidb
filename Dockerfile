@@ -19,6 +19,7 @@
 FROM golang:1.21 as builder
 WORKDIR /tidb
 
+
 COPY . .
 
 ARG GOPROXY
